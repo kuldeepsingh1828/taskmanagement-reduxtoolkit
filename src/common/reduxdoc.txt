@@ -1,0 +1,26 @@
+parent state
+child 1  props
+sub child 1 props
+
+
+parent state -- set context
+
+child 1  ----- IT HAS THE INFORMATION BUT NO USING
+sub child 1 useContext
+
+
+
+redux --- centralized store
+ACTIONS [+1, +n, -1, -n]
+ <--- REDUCER <----- 
+
+ CASE 1 :' INCREMENBY_1'
+ CASE 2 :' INCREMENBY_N'
+ CASE 3 :' DECREMENBY_1'
+ CASE 4 :' DECREMENBY_N'
+ CASE DEFAULT :' setVALUE
+    STORE
+    |
+    |
+    \/
+react-redux 
